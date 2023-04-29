@@ -2,7 +2,7 @@ import 'package:analog_clock/analog_clock.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:goliza/common/colors.dart';
-import 'package:goliza/home/controller/home_controller.dart';
+import 'package:goliza/pages/home/controller/home_controller.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Home extends StatelessWidget {

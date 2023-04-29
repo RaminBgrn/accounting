@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:goliza/common/colors.dart';
-import 'package:goliza/home/screen/home.dart';
+import 'package:goliza/pages/home/view/home.dart';
+import 'package:goliza/pages/warehouse/view/warehouse.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class IntroPage extends StatefulWidget {
@@ -89,9 +90,7 @@ class _IntroPageState extends State<IntroPage> {
                 controller: _homePageViewController,
                 children: [
                   const Home(),
-                  Container(
-                    color: Colors.red,
-                  ),
+                  const Warehouse(),
                   Container(
                     color: Colors.green,
                   ),
